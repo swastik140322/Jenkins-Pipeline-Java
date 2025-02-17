@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/your-repo/Jenkins-Pipeline-Java.git' // Replace with your repo
+                git 'https://github.com/swastik140322/Jenkins-Pipeline-Java.git' // Replace with your repo
             }
         }
 
